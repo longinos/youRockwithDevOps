@@ -1,9 +1,6 @@
 applications:
-- path: .
-  memory: 960M
-  instances: 1
-  domain: mybluemix.net
-  name: youRockwithDevOps
-  host: youRockwithDevOps
-  disk_quota: 960M
+- name: youRockwithDevOps_MLG
   random-route: false
+  memory: 960M
+  disk_quota: 960M
+- buildpack: sdk-for-nodejs
